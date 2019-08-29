@@ -1,0 +1,5 @@
+n=int(input())
+ls=list(map(int, input().split()))
+ls.sort()
+h=max([ls.count(i) for i in ls])
+print(h)
